@@ -88,7 +88,7 @@ if st.button('🚀 Predict Premium'):
     <div style="text-align:center; padding:20px; background-color:#f0f0f0; 
                 border-radius:10px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
         <h2 style="color:#0073e6;">Your Estimated Health Insurance Premium:</h2>
-        <h1 style="color:green; font-size:40px;"> {prediction:.2f} </h1>
+        <h1 style="color:green; font-size:40px;">₹ {prediction:.2f} </h1>
         <p style="color:#333;">Based on your details, this is an estimate of your annual premium.</p>
     </div>
     """, unsafe_allow_html=True)
