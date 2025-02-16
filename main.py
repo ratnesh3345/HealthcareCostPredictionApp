@@ -81,7 +81,7 @@ if st.button('🚀 Predict Premium'):
         prediction = predict(input_dict)
 
     # 🔔 Show subtle notification
-    st.success("✅ Prediction Completed!", icon="✅")
+    st.success(" Prediction Completed!", icon="✅")
 
     # 💰 Display premium amount in a styled format
     st.markdown(f"""
